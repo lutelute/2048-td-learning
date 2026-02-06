@@ -1,0 +1,4 @@
+node_modules/
+weights/*.bin
+weights/*.json
+!weights/.gitkeep

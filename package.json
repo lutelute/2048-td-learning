@@ -1,0 +1,14 @@
+{
+  "name": "2048-ai-ntuple",
+  "version": "1.0.0",
+  "description": "2048 AI with N-tuple network + TD learning for 5x5 board",
+  "type": "module",
+  "scripts": {
+    "train": "node scripts/train.js",
+    "benchmark": "node scripts/benchmark.js",
+    "play-browser": "node scripts/play-browser.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
