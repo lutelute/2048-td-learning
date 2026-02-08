@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "train": "node scripts/train.js",
+    "train4x4": "node --max-old-space-size=512 scripts/train4x4.js",
     "benchmark": "node scripts/benchmark.js",
-    "play-browser": "node scripts/play-browser.js"
+    "play-browser": "node scripts/play-browser.js",
+    "dashboard": "node --max-old-space-size=512 scripts/dashboard.js"
   },
   "dependencies": {
     "playwright": "^1.40.0"

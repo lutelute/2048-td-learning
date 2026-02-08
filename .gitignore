@@ -2,3 +2,9 @@ node_modules/
 weights/*.bin
 weights/*.json
 !weights/.gitkeep
+weights4x4/*.bin
+weights4x4/*.json
+!weights4x4/.gitkeep
+gifs/
+train4x4.log
+train.log
